@@ -1,0 +1,5 @@
+com/masai/a530june_send_mail_css_you4/MainActivity.java
+ com.masai.a530june_send_mail_css_you4.MainActivity
+ com.masai.a530june_send_mail_css_you4.MainActivity$1
+com/masai/a530june_send_mail_css_you4/BuildConfig.java
+ com.masai.a530june_send_mail_css_you4.BuildConfig

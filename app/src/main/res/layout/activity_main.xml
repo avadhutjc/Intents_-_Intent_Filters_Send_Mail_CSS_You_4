@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="start"
+        android:textSize="13sp"
+        android:text="@string/to_email_address"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="20sp"
+        android:background="@drawable/rect"
+        android:hint="@string/to_email_address"/>
+
+    <EditText
+        android:id="@+id/EtCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/cc2"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_marginTop="30sp"
+        android:gravity="start"
+        android:paddingStart="4dp"
+        android:paddingEnd="0dp"
+        android:padding="20sp"
+        android:background="@drawable/rect"
+        android:inputType="textEmailAddress"
+        android:hint="@string/cc" />
+
+    <EditText
+        android:id="@+id/EtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:text="@string/body"
+        android:padding="40sp"
+        android:background="@drawable/rect"
+        android:inputType="textMultiLine"
+        android:hint="@string/enter_message"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:background="#C4C4C4"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="15sp"
+        android:gravity="center"
+        android:padding="30sp"
+        android:text="@string/send"
+        android:textColor="@color/black" />
+
+</LinearLayout>

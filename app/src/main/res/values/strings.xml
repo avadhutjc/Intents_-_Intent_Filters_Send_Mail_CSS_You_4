@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">5) 30June_Send_mail_CSS_You4</string>
+
+    <string name="to_email_address">To: Email address</string>
+    <string name="cc">cc:</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="body">Hi Sir,
+                                This mail is regarding my leaves as I won’t be able
+                                to attend the team meetings due to health issues.
+                                Kindly excuse my absence</string>
+    <string name="cc2">
+cc: dcosta123@gmail.com , nrupul456@masai.com</string>
+    <string name="send">Send</string>
+</resources>
